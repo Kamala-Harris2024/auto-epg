@@ -5,6 +5,12 @@ def download_m3u(url):
     response.raise_for_status()
     return response.text
 
+def extract_url_tvg(m3u_data):
+    for line in m3u_data.splitlines():
+        if line.startswith("#EXTM3U") and "url-tvg=" in line:
+            return line
+    return "#EXTM3U"
+
 def parse_m3u(m3u_data):
     channels = {}
     lines = m3u_data.splitlines()
@@ -37,9 +43,9 @@ def merge_m3u_channels(channels1, channels2):
 
     return merged_channels
 
-def write_m3u(filename, channels):
+def write_m3u(filename, channels, url_tvg):
     with open(filename, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
+        f.write(f"{url_tvg}\n")
         for channel in channels.values():
             f.write(f"{channel['info']}\n")
             f.write(f"{channel['stream']}\n")
@@ -50,10 +56,12 @@ url2 = "https://gitlab.com/iptv135435/iptvshared/raw/main/IPTV_SHARED.m3u"
 m3u_data1 = download_m3u(url1)
 m3u_data2 = download_m3u(url2)
 
+url_tvg = extract_url_tvg(m3u_data2)
+
 channels1 = parse_m3u(m3u_data1)
 channels2 = parse_m3u(m3u_data2)
 
 merged_channels = merge_m3u_channels(channels1, channels2)
 
 output_filename = "merged_channels.m3u"
-write_m3u(output_filename, merged_channels)
+write_m3u(output_filename, merged_channels, url_tvg)
