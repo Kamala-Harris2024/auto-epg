@@ -1,6 +1,7 @@
 name: Update M3U File
 
 on:
+  workflow_dispatch:
   schedule:
     # Every 12 hours
     - cron: "0 */12 * * *"
