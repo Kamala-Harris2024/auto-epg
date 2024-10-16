@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz; http://gabbarit.drm-play.com/epg_1.xml.gz"
 #EXTINF:-1 tvg-id="pervy" tvg-logo="https://iptvx.one/picons/pervy.png" group-title="Общественные",Первый (HD)
 http://194.143.148.28:8080/PerviyHD/index.m3u8
 #EXTINF:-1 tvg-id="2265" tvg-logo="http://epg.one/img2/2265.png" group-title="Общественные",360° (HD)
