@@ -12,7 +12,7 @@ def extract_url_tvg(m3u_data):
     return "#EXTM3U"
 
 def normalize_category(category):
-    if category in ["Кинозал", "Русский кинозал", "Кинозалы"]:
+    if category in ["Кинозал", "Русский кинозал", "Кинозалы", "Кино и сериалы"]:
         return "Кино и Сериалы"
     if category in ["Общественные"]:
         return "Эфирные"
@@ -22,6 +22,10 @@ def normalize_category(category):
         return "Хобби и увлечения"
     if category in ["Новостные"]:
         return "Новости"
+    if category in ["Региoнальные"]: # Опечатка в листе
+        return "Региональные"
+    if category in ["Христианские"]:
+        return "Религиозные"
     return category
 
 def parse_m3u(m3u_data):
