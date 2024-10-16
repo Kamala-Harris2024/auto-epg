@@ -11,6 +11,19 @@ def extract_url_tvg(m3u_data):
             return line
     return "#EXTM3U"
 
+def normalize_category(category):
+    if category in ["Кинозал", "Русский кинозал", "Кинозалы"]:
+        return "Кино и Сериалы"
+    if category in ["Общественные"]:
+        return "Эфирные"
+    if category in ["Наш спорт"]:
+        return "Спортивные"
+    if category in ["Досуг"]:
+        return "Хобби и увлечения"
+    if category in ["Новостные"]:
+        return "Новости"
+    return category
+
 def parse_m3u(m3u_data):
     channels = {}
     lines = m3u_data.splitlines()
@@ -22,10 +35,15 @@ def parse_m3u(m3u_data):
                 current_channel = None
                 continue
 
+            if 'group-title="' in line:
+                group_title = line.split('group-title="')[1].split('"')[0]
+                normalized_category = normalize_category(group_title)
+                line = line.replace(f'group-title="{group_title}"', f'group-title="{normalized_category}"')
+
             tvg_id = None
             if 'tvg-id' in line:
                 tvg_id = line.split('tvg-id="')[1].split('"')[0]
-            current_channel = {"info": line, "stream": None, "tvg-id": tvg_id}
+            current_channel = {"info": line, "stream": None, "tvg-id": tvg_id, "category": normalized_category}
         elif line and current_channel:
             current_channel["stream"] = line
             if current_channel["tvg-id"]:
@@ -38,8 +56,11 @@ def merge_m3u_channels(channels1, channels2):
     merged_channels = channels1.copy()
 
     for tvg_id, channel in channels2.items():
-        if tvg_id not in merged_channels:
-            merged_channels[tvg_id] = channel
+        if tvg_id in merged_channels:
+            existing_channel = merged_channels[tvg_id]
+            if channel["category"] == existing_channel["category"]:
+                continue
+        merged_channels[tvg_id] = channel
 
     return merged_channels
 
