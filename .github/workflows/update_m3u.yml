@@ -35,9 +35,11 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
-          fi
-
+          else
+            echo "Changes detected, committing"
+          
       - name: Commit changes
+        if: ${{ success() && always() }}
         run: |
           git commit -m "Update merged_channels.m3u file"
           git push
