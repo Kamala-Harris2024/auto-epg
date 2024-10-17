@@ -37,7 +37,8 @@ jobs:
             exit 0
           else
             echo "Changes detected, committing"
-          
+          fi
+
       - name: Commit changes
         if: ${{ success() && always() }}
         run: |
