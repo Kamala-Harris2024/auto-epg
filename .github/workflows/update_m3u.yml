@@ -38,6 +38,7 @@ jobs:
           else
             echo "Changes detected, committing"
           fi
+        continue-on-error: true
 
       - name: Commit changes
         if: ${{ success() && always() }}
