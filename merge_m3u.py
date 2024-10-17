@@ -68,10 +68,14 @@ def merge_m3u_channels(channels1, channels2):
 
     return merged_channels
 
+def extract_channel_name(extinf_line):
+    return extinf_line.split(",", 1)[1].strip()
+
 def write_m3u(filename, channels, url_tvg):
     with open(filename, "w", encoding="utf-8") as f:
         f.write(f"{url_tvg}\n")
-        for channel in channels.values():
+        sorted_channels = sorted(channels.values(), key=lambda channel: extract_channel_name(channel['info']))
+        for channel in sorted_channels:
             f.write(f"{channel['info']}\n")
             f.write(f"{channel['stream']}\n")
 
