@@ -158,7 +158,7 @@ http://edge02.odtv.az/o4/extremesport/playlist.m3u8
 #EXTINF:-1 tvg-id="fanhd" tvg-logo="https://iptvx.one/picons/fanhd.png" group-title="Кино и Сериалы",FAN (EDTV 576p)
 http://91.224.169.250:5000/c17
 #EXTINF:-1 tvg-id="Fox News" tvg-logo="http://i115.fastpic.org/big/2021/0923/28/6c6a6cae8faf56699e1b067d6bc24a28.png" group-title="Новости", FOX NEWS CHANNEL FHD
-http://fl2.moveonjoy.com/FOX_News_Channel/index.m3u8
+http://stream2.cinerama.uz/1252/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="fox" tvg-logo="https://iptvx.one/picons/fox.png" group-title="Кино и Сериалы",FX (EDTV 576p)
 http://stream01.vnet.am/Fox/mono.m3u8
 #EXTINF:-1 tvg-id="foxlife" group-title="Кино и Сериалы", FX Life HD
@@ -203,6 +203,8 @@ http://31.131.136.4:8001/play/e017
 http://77.235.1.17/history/index.m3u8
 #EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://iptvx.one/picons/hollywood-hd.png" group-title="Кино и Сериалы",HollywooD (HD)
 http://91.207.115.228:12000/play/a01m
+#EXTINF:-1 tvg-id="home-4k" group-title="Познавательные", Home 4K
+http://77.235.1.17/home_4k/index.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" tvg-logo="https://iptvx.one/picons/idxtra.png" group-title="Познавательные",ID (HD)
 http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-id="kxl" group-title="Спортивные" catchup="append" catchup-days="7" catchup-source="?start=${start}&end=${end}", KHL
@@ -336,7 +338,7 @@ http://31.210.208.171:8080/shottv/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="scream" group-title="Кино и Сериалы",Scream HD
 http://88.218.242.237:8000/play/a00c
 #EXTINF:-1 tvg-id="setanta-kz" group-title="Спортивные", Setanta Qazaqstan
-http://194.26.229.213/TUDN_Setanta-Qazaqstan/index.m3u8?token=Panda
+http://de.kineskop.club/site2/1636/1009756_8a84ac70b0751482_0_0_fs2.m3u8
 #EXTINF:-1 tvg-id="shopping-live" group-title="Развлекательные",Shopping Live
 http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="silkway" group-title="Познавательные", Silk Way
@@ -378,7 +380,7 @@ http://91.205.199.3/sovershennosekretno/index.m3u8
 #EXTINF:-1 tvg-id="trashtv" group-title="Кино и Сериалы", Trash TV
 https://livetv.mylifeisgood.net.ru/channels/trash.m3u8
 #EXTINF:-1 tvg-id="travel-channel" group-title="Познавательные", Travel Channel HD
-http://91.207.115.228:12000/play/a041
+http://80.94.225.126:8080/TravelChannelHD/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные", Travel+Adventure
 http://91.194.191.241:8081/chid418/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="univer-tv" tvg-logo="https://iptvx.one/picons/univer-tv.png" group-title="Познавательные",UNIVER (WSVGA)
@@ -548,11 +550,11 @@ https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 tvg-id="dialogi-o-rybalke" group-title="Познавательные", Диалоги о рыбалке HD
 rtmp://92.119.88.58//2394
 #EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Познавательные", Дикая охота FHD
-http://91.205.199.3/dikayaoxotahd/index.m3u8
+http://s1.merlive.am/dikayaoxota/index.m3u8
 #EXTINF:-1 tvg-id="dikaya-rybalka-hd" group-title="Познавательные", Дикая рыбалка FHD
-http://91.205.199.3/dikayaribalkahd/index.m3u8
+http://tv.newline.in.ua:9013/play/s00a
 #EXTINF:-1 tvg-id="dikiy" group-title="Познавательные", Дикий
-http://65.21.85.175:8000/play/a00k/index.m3u8?token=livetv
+http://80.94.225.126:8080/Dikiy/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="dozhd" group-title="Новости", Дождь HD
 https://m3u8.ott.blue/watch/7319/video.m3u8?geo=auto&token=94450098895765784220366841698509
 #EXTINF:-1 tvg-id="doktor" group-title="Познавательные", Доктор
@@ -638,7 +640,7 @@ http://stream2.cinerama.uz/1060/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="istoria" tvg-logo="https://iptvx.one/picons/istoria.png" group-title="Познавательные",История (SDTV 576i)
 http://stream01.vnet.am/Istoria/mono.m3u8
 #EXTINF:-1 tvg-id="kvn-tv" group-title="Развлекательные", КВН-ТВ
-http://94.230.128.105:8080/KVN_TV/index.m3u8
+http://91.194.191.241:8081/chid472/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ktv-gorod" catchup="append" tvg-logo="http://www.ktvtv.ru/content/img/logo.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",КТВ Город
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="kuxnia-tv" group-title="Развлекательные", КУХНЯ-ТВ
@@ -673,10 +675,10 @@ https://autopilot.catcast.tv/content/41333/index.m3u8
 http://88.218.242.237:8000/play/a002
 #EXTINF:-1 tvg-id="kinopokaz" tvg-logo="https://iptvx.one/picons/kinopokaz.png" group-title="Кино и Сериалы",Кинопоказ (EDTV 576p)
 http://31.210.208.171:8080/kinopokaz/index.m3u8?token=+W2MSER
-#EXTINF:-1 tvg-id="rus-hualiang-tv" group-title="Познавательные", Китай ТВ
+#EXTINF:-1 tvg-id="rus-hualiang-tv" group-title="Кино и Сериалы", Китай ТВ
 https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
 #EXTINF:-1 tvg-id="kluch" group-title="Познавательные",Ключ
-http://193.242.204.28:10184/184
+http://185.23.80.28:8080/Klyuch/index.m3u8?token=test
 #EXTINF:-1 tvg-id="kolyma-plus" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Колыма-Плюс HD
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="komedijnoe-hd" tvg-logo="https://iptvx.one/picons/komedijnoe.png" group-title="Кино и Сериалы",Комедийное (HD)
@@ -735,14 +737,14 @@ http://stream01.vnet.am/Mama/mono.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="match-boets" group-title="Спортивные", Матч Боец
 http://91.194.191.241:8081/chid143/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="match-premier" group-title="Спортивные", Матч Премьер HD
+http://95.216.40.210/nashfootball/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="match-tv" tvg-logo="https://iptvx.one/picons/match-tv.png" group-title="Спортивные",Матч! (EDTV 576p)
 http://91.142.158.107:8092/play/33/index.m3u8
 #EXTINF:-1tvg-id="match-arena" group-title="Спортивные", Матч! Арена HD
 http://95.216.40.210/matcharena/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="match-nash-sport" group-title="Спортивные", Матч! Страна HD
 http://91.207.115.228:12000/play/a02u
-#EXTINF:-1 tvg-id="match-premier" group-title="Спортивные", Матч. Премьер HD
-http://95.216.40.210/nashfootball/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="match-football1" group-title="Спортивные", Матч. Футбол 1 HD
 http://95.216.40.210/football1/tracks-v1a1/index.m3u8
 #EXTINF:- 1tvg-id="match-football2" group-title="Спортивные", Матч. Футбол 2 HD
@@ -774,7 +776,7 @@ http://194.143.148.28:8080/Nauka20/mpegts
 #EXTINF:-1 tvg-id="morskoy" group-title="Познавательные", Моя стихия HD
 https://stream-msk-16.ott.tricolor.tv/dtv/id930_MSKSG-PVR-1--MyStihiya/02/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTQwODAyOSwiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI4ODAzMjI5LCJzZXNzaW9uX2lkIjoiZDQzMTVhYTQ2MDNmNGFlNDIxM2QzZTU1NjJhYTdlMWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.WhRO8CUOMpnt2i8XnYP2d2qHSltOUpTnuNo5tapm-PY
 #EXTINF:-1 tvg-id="muzhskoy" group-title="Познавательные", Мужской
-http://195.26.83.96:7007/play/11/index.m3u8
+http://91.194.191.241:8081/chid120/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="muzsoyuz" tvg-logo="http://epg.it999.ru/img2/2413.png" group-title="Религиозные",МузСоюз (WSVGA)
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://iptvx.one/picons/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
@@ -877,6 +879,8 @@ http://s1.merlive.am:80/oceantv/index.m3u8
 https://edge56.dc.beltelecom.by/ont/_definst_/ont/chunklist_w316090515.m3u8
 #EXTINF:-1 tvg-id="ort-planeta-orenburg" catchup="append" tvg-logo="https://media56.ru/wp-content/uploads/2020/10/1-12.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",ОРТ-Планета (Оренбург)
 #EXTVLCOPT:http-user-agent=SmartTV
+#EXTINF:-1 tvg-id="ОБЩЕСТВЕННАЯ СЛУЖБА НОВОСТЕЙ" group-title="Новости", ОСН ТВ
+http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
 #EXTINF:-1 tvg-id="otv-eburg" catchup="append" tvg-logo="https://telebegun.ru/uploads/channels/thumb_cfd46da89584b1ed1c8f907c3add9263.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",ОТВ Екатеринбург HD
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="otv-primorie" catchup="append" tvg-logo="https://tv-radio.online/uploads/posts/2017-12/1514576989_otv-prim.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",ОТВ Приморье
@@ -896,7 +900,7 @@ http://31.131.136.4:8001/play/e012
 #EXTINF:-1 tvg-id="otkryty-mir" tvg-logo="https://iptvx.one/picons/otkryty-mir.png" group-title="Хобби и увлечения",Открытый мир (WSVGA)
 http://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:-1 tvg-id="oxota-i-rybalka" group-title="Познавательные",Охота и рыбалка
-http://65.21.85.175:8000/play/a01k/index.m3u8?token=livetv
+http://80.94.225.126:8080/OhotaiRibalka/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="oxotnik-i-rybolov-int" group-title="Познавательные", Охотник и Рыболов Int
 https://stream-msk-14.ott.tricolor.tv:443/dtv/id614_MSKSG-PVR-1--Ohotnik_i_ryb_int_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTQwODAyOSwiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI4ODAzMjI5LCJzZXNzaW9uX2lkIjoiZDQzMTVhYTQ2MDNmNGFlNDIxM2QzZTU1NjJhYTdlMWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.WhRO8CUOMpnt2i8XnYP2d2qHSltOUpTnuNo5tapm-PY
 #EXTINF:-1 tvg-id="prnk-tv" tvg-logo="https://iptvx.one/picons/prnk-tv.png" group-title="Эфирные",ПРНК (HD ready)
@@ -1225,8 +1229,6 @@ http://hitfm.hostingradio.ru/hitfm128.mp3
 http://stream-msk-09.ott.tricolor.tv/dtv/id644_MSKSG-PVR-1--Hit_HD/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTQwODAyOSwiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI4ODAzMjI5LCJzZXNzaW9uX2lkIjoiZDQzMTVhYTQ2MDNmNGFlNDIxM2QzZTU1NjJhYTdlMWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.WhRO8CUOMpnt2i8XnYP2d2qHSltOUpTnuNo5tapm-PY
 #EXTINF:-1 tvg-id="centralnoye-tv" group-title="Познавательные", ЦТВ
 https://stream-msk-11.ott.tricolor.tv/dtv/id654_MSKSG-PVR-1--Centralnoe_TV/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTQwODAyOSwiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI4ODAzMjI5LCJzZXNzaW9uX2lkIjoiZDQzMTVhYTQ2MDNmNGFlNDIxM2QzZTU1NjJhYTdlMWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.WhRO8CUOMpnt2i8XnYP2d2qHSltOUpTnuNo5tapm-PY
-#EXTINF:-1 tvg-id="ЦАРЬГРАД" group-title="Новости", Царьград ТВ HD
-https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?s=g3nyJBuAssmEcmgXIKzP-A&e=1729234598&scheme=https?token=iptvshared
 #EXTINF:-1 tvg-id="chavash-en" catchup="append" tvg-logo="https://television-planet.tv/uploads/posts/63456gregrewfwef.jpeg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Чаваш ЕН
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="che-pl4" catchup="append" tvg-logo="https://i.ibb.co/d4S6vpx/che-s.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Че (Омск)
