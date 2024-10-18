@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz; http://gabbarit.drm-play.com/epg_1.xml.gz"
-#EXTINF:-1 tvg-id="mir-uvlecheniy" tvg-logo="https://iptvx.one/picons/mir-uvlecheniy.png" group-title="Познавательные", #КтоКуда
-http://185.223.125.136:1984/play/a05b/index.m3u8
+#EXTINF:-1 tvg-id="mir-uvlecheniy" tvg-logo="https://iptvx.one/picons/mir-uvlecheniy.png" group-title="Познавательные",#КТОКУДА (EDTV 576p)
+http://dmi3y-tv.ru/hls/CH_KTOKUDA.m3u8
 #EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://iptvx.one/picons/sony-turbo.png" group-title="Кино и Сериалы",.black (EDTV 576p)
 http://91.207.114.220:9001/play/a0cu/index.m3u8
 #EXTINF:-1 tvg-id="sony-tv" tvg-logo="https://iptvx.one/picons/sony.png" group-title="Кино и Сериалы",.red (EDTV 576p)
@@ -583,6 +583,8 @@ http://91.194.191.241:8081/chid138/tracks-v1a1/mono.m3u8
 http://195.26.83.96:7021/play/52/index.m3u8
 #EXTINF:-1 tvg-id="evrasia" catchup="append" tvg-logo="https://assets.limehd.tv/uploads/channel/10460/thumb_d56a5b5b107958683192a54d765730cd.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Евразия Орск
 #EXTVLCOPT:http-user-agent=SmartTV
+#EXTINF:-1 tvg-id="evrokino" tvg-logo="https://iptvx.one/picons/eurokino.png" group-title="Кино и Сериалы",Еврокино (EDTV 576p)
+http://91.207.115.228:12000/play/a04e
 #EXTINF:-1 tvg-id="euronews" group-title="Новости",Евроновости
 http://stream2.cinerama.uz/1024/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="eda" group-title="Развлекательные", Еда
@@ -761,6 +763,8 @@ http://88.218.242.237:8000/play/a00e
 http://91.205.199.3/mirseriala/index.m3u8
 #EXTINF:-1 tvg-id="mirovoe-kino-kz" group-title="Кино и Сериалы", Мировое Кино HD KZ
 http://77.235.1.17/mirovoe_kino/index.m3u8
+#EXTINF:-1 tvg-id="2308" tvg-logo="http://epg.one/img2/2308.png" group-title="Региональные",Москва Доверие (WSVGA)
+http://player.smotrim.ru/iframe/stream/live_id/61125?43e=5.m3u8
 #EXTINF:-1 tvg-id="moskovsky-obrazovatelny" group-title="Познавательные", Мособр TV HD
 https://retrtb.educom.ru/mosobrtv/tv2/index.m3u8
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и Сериалы",Мосфильм. Золотая коллекция (HD)
@@ -819,8 +823,8 @@ https://stream-msk-15.ott.tricolor.tv/dtv/id940_MSKSG-PVR-1--NTV_Stil_SD/04/plst
 http://stream2.cinerama.uz/1434/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="gubernia" catchup="append" tvg-logo="https://www.gubernia.com/projects/wp-content/uploads/2018/09/36240639_1930710220312625_2332829383951122432_n.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",НТК Губерния (Хабаровск)
 #EXTVLCOPT:http-user-agent=SmartTV
-#EXTINF:-1 tvg-id="ntm" catchup="append" tvg-logo="https://ntm13.ru/wp-content/uploads/2018/12/unnamed.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",НТМ
-#EXTVLCOPT:http-user-agent=SmartTV
+#EXTINF:-1 tvg-id="ntm" tvg-logo="https://iptvx.one/picons/ntm.png" group-title="Региональные",НТМ (Саранск) (HD ready)
+http://dmi3y-tv.ru/hls/region/CH_NTMHD720_SRNK.m3u8
 #EXTINF:-1 tvg-id="nts-irkutsk" catchup="append" tvg-logo="https://picon.ml/nts-irkutsk.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",НТС Иркутск
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/nts-sevastopol.png" tvg-id="nts-sevastopol" group-title="Региональные", НТС Севастополь
@@ -1025,6 +1029,8 @@ http://91.142.158.107:8092/play/25/index.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="oxotnik-i-rybolov" tvg-logo"https://epgx.site/p/oxotnik-i-rybolov.png" group-title="Познавательные",Рыболов
 https://stream-msk-12.ott.tricolor.tv:443/dtv/id665_MSKSG-PVR-1--Rybalov/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTQwODAyOSwiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI4ODAzMjI5LCJzZXNzaW9uX2lkIjoiZDQzMTVhYTQ2MDNmNGFlNDIxM2QzZTU1NjJhYTdlMWQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.WhRO8CUOMpnt2i8XnYP2d2qHSltOUpTnuNo5tapm-PY
+#EXTINF:-1 tvg-id="6646" tvg-logo="http://epg.one/img2/6646.png" group-title="Хобби и увлечения",Рыболов (EDTV 576p)
+http://91.207.115.228:12000/play/a02x
 #EXTINF:-1 tvg-id="ryzhy" tvg-logo="https://iptvx.one/picons/ryzhy.png" group-title="Детские",Рыжий (EDTV 576p)
 http://91.207.115.228:12000/play/a01p
 #EXTINF:-1 tvg-id="s1-surgut" logo="https://iptvx.one/picons/s1-surgut.png",С1 (Сургут) (WSVGA)
@@ -1039,8 +1045,8 @@ http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
 http://45.159.74.13:80/CTC/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="sts-int" tvg-logo="https://iptvx.one/picons/sts-int.png" group-title="Развлекательные",СТС Int (EDTV 576p)
 https://cdn1.skygo.mn/live/disk1/STS/HLS-FTA/STS.m3u8
-#EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" group-title="Детские",СТС Kids (EDTV 576p)
-http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" group-title="Детские",СТС Kids (HD)
+http://91.207.115.228:12000/play/a01w
 #EXTINF:-1 tvg-id="sts-love" tvg-logo="https://iptvx.one/picons/sts-love.png" group-title="Развлекательные",СТС Love (EDTV 576p)
 http://178.212.71.253:8002/play/a00r/index.m3u8
 #EXTINF:-1 tvg-id="salam" catchup="append" tvg-logo="https://www.cableman.ru/sites/default/files/salyam_0.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Салям HD
@@ -1141,8 +1147,6 @@ http://93.189.224.246:52900/play/a00f/index.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://iptvx.one/picons/tnt.png" group-title="Развлекательные",ТНТ (HD)
 http://91.207.115.228:12000/play/a04a
-#EXTINF:-1 tvg-id="tnt-int-eu" tvg-logo="http://epg.it999.ru/img2/353.png" group-title="Развлекательные",ТНТ Int (Европа) (EDTV 576p)
-http://85.187.13.40:18000/tntint
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://iptvx.one/picons/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="tnt4" tvg-logo="https://iptvx.one/picons/tnt4.png" group-title="Развлекательные",ТНТ4 (EDTV 576p)
