@@ -328,7 +328,7 @@ https://live-mirror-19.ott.tricolor.tv/dtv/id969_MSKSG-PVR-1--Silk_Way_HD/02/pls
 #EXTINF:-1 tvg-id="sky-sport-bl1" group-title="Спортивные", Sky Sport Bundesliga 1 HD
 http://185.223.125.136:1984/play/a05m/index.m3u8
 #EXTINF:-1 tvg-id="sky-sports-f1" group-title="Спортивные", Sky Sports F1 HD
-https://bl.rutube.ru/livestream/920a9c2aa191bc403fef13ad449ad6fa/index.m3u8?s=yOxuGqbCebkF29474t9SzA&e=1729371798&scheme=https
+http://iptvtree.net:8080/F32628/09b7a855/265
 #EXTINF:-1 tvg-id="sky-sports-maine" group-title="Спортивные", Sky Sports Main Event HD
 http://185.223.125.136:1984/play/a05q/index.m3u8
 #EXTINF:-1 tvg-id="song-tv" group-title="Музыкальные", Song TV Армения
@@ -907,6 +907,8 @@ https://stream-msk-10.ott.tricolor.tv/dtv/id471_MSKSG-PVR-1--Perviy_Vegetor/04/p
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="pervy-gorodskoy-omsk" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Первый городской (Омск)
 #EXTVLCOPT:http-user-agent=SmartTV
+#EXTINF:-1 tvg-id="pervy-info-by" group-title="Эфирные", Первый информационный Беларусь
+https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w499524774_b5160000_sleng.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xNy8yMDI0IDEwOjA0OjA4IEFNJmhhc2hfdmFsdWU9SDJKZTBvbkthK0M0RG14b3JWdkNzZz09JnZhbGlkbWludXRlcz0xMjA%3D
 #EXTINF:-1 tvg-id="pervy-pl8" catchup="append" tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Первый канал (Магадан)
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="pervy-kanal-usa" tvg-logo="https://iptvx.one/picons/pervy-kanal-usa.png" group-title="Эфирные", Первый канал США
@@ -1217,6 +1219,8 @@ http://hitfm.hostingradio.ru/hitfm128.mp3
 http://stream-msk-09.ott.tricolor.tv/dtv/id644_MSKSG-PVR-1--Hit_HD/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTkyOTUyNywiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI5MzI0NzI3LCJzZXNzaW9uX2lkIjoiZTU3OWQ0M2M5MDU3Nzk5NjU5Y2YxMzk2ZTk4ZmQxZTMiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hpQpgZb3k09pv4k41uu0zJolyMLpUuSooyv_2Biu1PY
 #EXTINF:-1 tvg-id="centralnoye-tv" group-title="Познавательные", ЦТВ
 https://stream-msk-11.ott.tricolor.tv/dtv/id654_MSKSG-PVR-1--Centralnoe_TV/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTkyOTUyNywiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI5MzI0NzI3LCJzZXNzaW9uX2lkIjoiZTU3OWQ0M2M5MDU3Nzk5NjU5Y2YxMzk2ZTk4ZmQxZTMiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hpQpgZb3k09pv4k41uu0zJolyMLpUuSooyv_2Biu1PY
+#EXTINF:-1 tvg-id="ЦАРЬГРАД" group-title="Новости", Царьград ТВ HD
+https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?s=DgAQdaM7ssVSjlUw85DIRQ&e=1729458193&scheme=https
 #EXTINF:-1 tvg-id="chavash-en" catchup="append" tvg-logo="https://television-planet.tv/uploads/posts/63456gregrewfwef.jpeg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Чаваш ЕН
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="che-pl4" catchup="append" tvg-logo="https://i.ibb.co/d4S6vpx/che-s.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Че (Омск)
