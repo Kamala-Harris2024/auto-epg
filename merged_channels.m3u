@@ -115,6 +115,8 @@ http://77.235.1.17/tv100_top/index.m3u8
 http://77.235.1.17/tv100_ruskino/index.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" tvg-logo="https://iptvx.one/picons/cinema.png" group-title="Кино и Сериалы",Cinema (EDTV 576p)
 http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="cinema" group-title="Кино и Сериалы",Cinema Космос ТВ
+http://93.125.121.75:80/CinemaTV/index.m3u8?token=test
 #EXTINF:-1 tvg-id="classic-music" group-title="Музыкальные", Classic Music HD
 https://stream-msk-11.ott.tricolor.tv/dtv/id831_MSKSG-PVR-1--Classic_Music_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTkyOTUyNywiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI5MzI0NzI3LCJzZXNzaW9uX2lkIjoiZTU3OWQ0M2M5MDU3Nzk5NjU5Y2YxMzk2ZTk4ZmQxZTMiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hpQpgZb3k09pv4k41uu0zJolyMLpUuSooyv_2Biu1PY
 #EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://iptvx.one/picons/clubbing-tv.png" group-title="Музыкальные",Clubbing TV (HD ready)
@@ -170,7 +172,7 @@ http://185.223.125.136:1984/play/FastNFunBOx/index.m3u8
 #EXTINF:-1 tvg-id="fightbox-hd" group-title="Спортивные", FightBox
 http://stream01.vnet.am/Fightbox/index.m3u8
 #EXTINF:-1 tvg-id="filmbox-ru" group-title="Кино и Сериалы", FilmBox Russia
-http://tv.newline.in.ua:9009/play/a00q
+http://5.9.11.197:57419/chu-90/mpegts
 #EXTINF:-1 tvg-id="flixsnip" group-title="Кино и Сериалы", FlixSnip
 http://stream-msk-06.ott.tricolor.tv/dtv/id669_MSKSG-PVR-1--Flix_Snip/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTkyOTUyNywiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI5MzI0NzI3LCJzZXNzaW9uX2lkIjoiZTU3OWQ0M2M5MDU3Nzk5NjU5Y2YxMzk2ZTk4ZmQxZTMiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hpQpgZb3k09pv4k41uu0zJolyMLpUuSooyv_2Biu1PY
 #EXTINF:-1 tvg-id="food-network" group-title="Развлекательные", Food Network
@@ -366,7 +368,7 @@ http://88.218.242.237:8000/play/a00m
 #EXTINF:-1 tvg-id="sovsek" tvg-logo="http://epg.it999.ru/img2/275.png" group-title="Познавательные",Top Secret (EDTV 576p)
 http://91.205.199.3/sovershennosekretno/index.m3u8
 #EXTINF:-1 tvg-id="trashtv" group-title="Кино и Сериалы", Trash TV
-https://livetv.mylifeisgood.net.ru/channels/trash.m3u8
+http://93.125.121.75:80/trash/index.m3u8?token=test
 #EXTINF:-1 tvg-id="travel-channel" group-title="Познавательные", Travel Channel HD
 http://80.94.225.126:8080/TravelChannelHD/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные", Travel+Adventure
@@ -377,6 +379,8 @@ http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="ugra-travel" catchup="append" tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1466425125928.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Ugra Travel
 #EXTVLCOPT:http-user-agent=SmartTV
+#EXTINF:-1 tvg-id="ultra-hd-cinema" tvg-logo="https://iptvx.one/picons/ultra-hd-cinema.png" group-title="Кино и Сериалы", Ultra HD Cinema
+http://5.9.11.197:57419/chu-387/mpegts
 #EXTINF:-1 tvg-id="vhs-ka" tvg-logo="https://iptvx.one/picons/vhs-ka.png" group-title="Кино и Сериалы",VHS-ка (HD)
 http://88.218.242.237:8000/play/a00x
 #EXTINF:-1 tvg-id="viva-rus" group-title="Музыкальные",VIVA TV Russia
@@ -422,7 +426,7 @@ https://bozztv.com/dvrfl05/gin-beinsportshaber/mono.m3u8
 #EXTINF:-1 tvg-id="myzen-tv" group-title="Познавательные", myZen.tv HD
 http://91.194.191.241:8081/chid417/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="viju-tv1000-novella" group-title="Кино и Сериалы",viju TV1000 Новелла
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Novella_HD.smil/tracks-v1a1/mono.m3u8?filter.tracks=v1v2v3a1&md5=d8Wm0i2acpfzUkq9j7bYcA&e=1729336076&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Novella_HD.smil/tracks-v1a1/mono.m3u8?filter.tracks=v1v2v3a1&md5=0OtWwngrzsjUcbpi_akBZw&e=1730484938&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1 tvg-id="astvus" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",АСТВ Южно-Сахалинск
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="atv-media" catchup="append" tvg-logo="https://atvmedia.ru/uploads/tilda/material-348/tild3766-6536-4332-b061-393931326336__logo_atvmedia_v_07.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",АТВ-Медиа
@@ -841,8 +845,8 @@ http://stream2.cinerama.uz/1424/tracks-v1a1/mono.m3u8
 https://stream-msk-04.ott.tricolor.tv/dtv/id590_MSKSG-PVR-1--Nasha_Tema/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTkyOTUyNywiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI5MzI0NzI3LCJzZXNzaW9uX2lkIjoiZTU3OWQ0M2M5MDU3Nzk5NjU5Y2YxMzk2ZTk4ZmQxZTMiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hpQpgZb3k09pv4k41uu0zJolyMLpUuSooyv_2Biu1PY
 #EXTINF:-1 tvg-id="nashehd" tvg-logo="https://iptvx.one/picons/nashehd.png" group-title="Кино и Сериалы",Наше (HD)
 http://77.235.1.17/nashe_krutoe/index.m3u8
-#EXTINF:-1 tvg-id="nashe-novoe-kino" group-title="Кино и Сериалы",Наше новое кино
-http://stream2.cinerama.uz/1051/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="nashe-novoe-kino" group-title="Кино и Сериалы",Наше новое кино HD
+http://5.9.11.197:57419/chu-132/mpegts
 #EXTINF:-1 tvg-id="neizvestnaya-rosia" tvg-logo="https://iptvx.one/picons/neizvestnaya-rosia.png" group-title="Эфирные",Неизвестная Россия (HD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69
 #EXTINF:-1 tvg-id="nn-24" tvg-logo="https://i.imgur.com/ZWgPVIC.png" group-title="Региональные",Нижний Новгород 24 (HD)
@@ -856,7 +860,7 @@ http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist
 #EXTINF:-1 tvg-id="nowy-igrowoj" tvg-logo="https://iptvx.one/picons/nowy-igrowoj.png" group-title="Развлекательные", Новый игровой канал
 https://live-mirror-19.ott.tricolor.tv/dtv/id994_MSKSG-PVR-1--NIK/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTkyOTUyNywiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI5MzI0NzI3LCJzZXNzaW9uX2lkIjoiZTU3OWQ0M2M5MDU3Nzk5NjU5Y2YxMzk2ZTk4ZmQxZTMiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hpQpgZb3k09pv4k41uu0zJolyMLpUuSooyv_2Biu1PY
 #EXTINF:-1 tvg-id="nostalgia" tvg-logo="https://iptvx.one/picons/nostalgia.png" group-title="Развлекательные", Ностальгия
-http://91.207.114.220:9001/play/a0d2/index.m3u8
+http://178.124.152.238:8088/nostalgia
 #EXTINF:-1 tvg-id="o_" tvg-logo="https://iptvx.one/picons/o_.png" group-title="Детские",О! (EDTV 576p)
 http://91.207.115.228:12000/play/a01v
 #EXTINF:-1 tvg-id="o2tv" tvg-logo="https://iptvx.one/picons/o2tv.png" group-title="Музыкальные",О!2 (EDTV 576p)
@@ -864,7 +868,7 @@ http://195.26.83.96:7006/play/1/index.m3u8
 #EXTINF:-1 tvg-id="ocean-tv" tvg-logo="https://iptvx.one/picons/ocean-tv.png" group-title="Познавательные",ОКЕАН (EDTV 576p)
 http://s1.merlive.am:80/oceantv/index.m3u8
 #EXTINF:-1 tvg-id="ont-by" tvg-logo="http://i120.fastpic.org/big/2022/1030/82/98a51aa644e4a988a369cd1c3bc9e882.png" group-title="Новости", ОНТ Беларусь
-https://edge56.dc.beltelecom.by/ont/_definst_/ont/chunklist_w316090515.m3u8
+http://86.57.198.251:8181/play/102/index.m3u8
 #EXTINF:-1 tvg-id="ort-planeta-orenburg" catchup="append" tvg-logo="https://media56.ru/wp-content/uploads/2020/10/1-12.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",ОРТ-Планета (Оренбург)
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="ОБЩЕСТВЕННАЯ СЛУЖБА НОВОСТЕЙ" group-title="Новости", ОСН ТВ
@@ -1030,7 +1034,7 @@ http://91.207.115.228:12000/play/a01p
 #EXTINF:-1 tvg-id="s1-surgut" logo="https://iptvx.one/picons/s1-surgut.png",С1 (Сургут) (WSVGA)
 https://sitv.ru/hls/stv1024.m3u8
 #EXTINF:-1 tvg-id="stv-by" group-title="Познавательные", СТВ Беларусь
-http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
+http://86.57.198.251:8181/play/103/index.m3u8
 #EXTINF:-1 tvg-id="stv-baykal" catchup="append" tvg-logo="http://fe-sib.svc.iptv.rt.ru/images/broadcastChannel1540180530448.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",СТВ-Байкал
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="strk" group-title="Кино и Сериалы", СТРК HD
@@ -1220,7 +1224,7 @@ http://stream-msk-09.ott.tricolor.tv/dtv/id644_MSKSG-PVR-1--Hit_HD/03/plst.m3u8?
 #EXTINF:-1 tvg-id="centralnoye-tv" group-title="Познавательные", ЦТВ
 https://stream-msk-11.ott.tricolor.tv/dtv/id654_MSKSG-PVR-1--Centralnoe_TV/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MjIxOTAwODkzMTAxOCIsImV4cCI6MTcyOTkyOTUyNywiaHdpZCI6IjVkNzc1ZmU4MjUwNmQyNTRkYjgyOTJlMTM1NTFhMjYwZDcxMjI0ZTQ2MmFmNjgzZTEwYzRjOTdiZjU4OGZlYWEiLCJsYXN0X3JlcV9kYXRlIjoxNzI5MzI0NzI3LCJzZXNzaW9uX2lkIjoiZTU3OWQ0M2M5MDU3Nzk5NjU5Y2YxMzk2ZTk4ZmQxZTMiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hpQpgZb3k09pv4k41uu0zJolyMLpUuSooyv_2Biu1PY
 #EXTINF:-1 tvg-id="ЦАРЬГРАД" group-title="Новости", Царьград ТВ HD
-https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?s=DgAQdaM7ssVSjlUw85DIRQ&e=1729458193&scheme=https
+https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?s=kTelWYhzhXjE-hWy9CnVTg&e=1729630993&scheme=https
 #EXTINF:-1 tvg-id="chavash-en" catchup="append" tvg-logo="https://television-planet.tv/uploads/posts/63456gregrewfwef.jpeg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Чаваш ЕН
 #EXTVLCOPT:http-user-agent=SmartTV
 #EXTINF:-1 tvg-id="che-pl4" catchup="append" tvg-logo="https://i.ibb.co/d4S6vpx/che-s.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региональные",Че (Омск)
