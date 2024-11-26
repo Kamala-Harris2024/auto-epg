@@ -55,7 +55,7 @@ valid_tvg_ids = load_m3u_tvg_ids(m3u_url)
 
 base_directory = 'sites'
 channels_directory = 'channels'
-target_dirs = ['gatotv.com', 'mi.tv', 'tv.cctv.com', 'movistarplus.es', 'tv.blue.ch', 'tvpassport.com', 'tvtv.us']
+target_dirs = ['gatotv.com', 'mi.tv', 'tv.cctv.com', 'movistarplus.es', 'tv.blue.ch', 'flixed.io', 'tvpassport.com', 'tvtv.us']
 
 # Create the channels directory if it doesn't exist
 os.makedirs(channels_directory, exist_ok=True)
